@@ -2,12 +2,12 @@
 
 Summary:	Application finder for Xfce
 Name:		xfce4-appfinder
-Version:	4.10.0
+Version:	4.10.1
 Release:	1
 License:	GPL v2, LGPL v2
 Group:		X11/Applications
 Source0:	http://archive.xfce.org/src/xfce/xfce4-appfinder/4.10/%{name}-%{version}.tar.bz2
-# Source0-md5:	799f70a9ad67b450da67810a5107e623
+# Source0-md5:	bea253956638e2df2dd950343b3b1b7b
 URL:		http://www.xfce.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
