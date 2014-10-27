@@ -1,13 +1,13 @@
-%define		xfce_version	4.10.0
+%define		xfce_version	4.11.0
 
 Summary:	Application finder for Xfce
 Name:		xfce4-appfinder
-Version:	4.10.1
+Version:	4.11.0
 Release:	1
 License:	GPL v2, LGPL v2
 Group:		X11/Applications
-Source0:	http://archive.xfce.org/src/xfce/xfce4-appfinder/4.10/%{name}-%{version}.tar.bz2
-# Source0-md5:	bea253956638e2df2dd950343b3b1b7b
+Source0:	http://archive.xfce.org/src/xfce/xfce4-appfinder/4.11/%{name}-%{version}.tar.bz2
+# Source0-md5:	8b01363bf10fc6da5f0a21664c5b02c5
 URL:		http://www.xfce.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -19,8 +19,8 @@ BuildRequires:	libxfce4ui-devel >= %{xfce_version}
 BuildRequires:	pkg-config
 BuildRequires:	startup-notification-devel
 BuildRequires:	xfce4-dev-tools >= %{xfce_version}
-BuildRequires:	xfconf-devel >= %{xfce_version}
-Requires:	garcon
+BuildRequires:	xfconf-devel >= 4.10.0
+Requires:	garcon >= 0.3.0
 Requires:	xfconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
